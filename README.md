@@ -16,20 +16,4 @@
     * `cd testing && python inception_score.py ../inference ../score.csv && kg submit ../score.csv`
     * If you have 2 GPUs, you can uncomment `main.py` line 806 to evaluate in loop. At the same time you should specified the `testing/inception_score.py` to run on different GPU with enough memory space.
 * ## Reference
-```
-@article{Han17stackgan2,
-  author    = {Han Zhang and Tao Xu and Hongsheng Li and Shaoting Zhang and Xiaogang Wang and Xiaolei Huang and Dimitris Metaxas},
-  title     = {StackGAN++: Realistic Image Synthesis with Stacked Generative Adversarial Networks},
-  journal   = {arXiv: 1710.10916},
-  year      = {2017},
-}
-```
-
-```
-@inproceedings{han2017stackgan,
-Author = {Han Zhang and Tao Xu and Hongsheng Li and Shaoting Zhang and Xiaogang Wang and Xiaolei Huang and Dimitris Metaxas},
-Title = {StackGAN: Text to Photo-realistic Image Synthesis with Stacked Generative Adversarial Networks},
-Year = {2017},
-booktitle = {{ICCV}},
-}
-```
+    * StackGAN++ PyTorch [paper](https://arxiv.org/abs/1710.10916) [code](https://github.com/hanzhanggit/StackGAN-v2)
