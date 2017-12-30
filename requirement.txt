@@ -1,0 +1,109 @@
+name: py35
+channels:
+- defaults
+dependencies:
+- ca-certificates=2017.08.26=h1d4fec5_0
+- certifi=2017.11.5=py35h9749603_0
+- libedit=3.1=heed3624_0
+- libffi=3.2.1=hd88cf55_4
+- libgcc-ng=7.2.0=h7cc24e2_2
+- libstdcxx-ng=7.2.0=h7a57d05_2
+- ncurses=6.0=h9df7e31_2
+- openssl=1.0.2n=hb7f436b_0
+- pip=9.0.1=py35h7e7da9d_4
+- python=3.5.4=h417fded_24
+- readline=7.0=ha6073c6_4
+- setuptools=36.5.0=py35ha8c1747_0
+- sqlite=3.20.1=hb898158_2
+- tk=8.6.7=hc745277_3
+- wheel=0.30.0=py35hd3883cf_1
+- xz=5.2.3=h55aa19d_2
+- zlib=1.2.11=ha838bed_2
+- pip:
+  - attrs==17.3.0
+  - beautifulsoup4==4.6.0
+  - bleach==1.5.0
+  - chardet==3.0.4
+  - cliff==2.8.0
+  - cmd2==0.7.8
+  - configparser==3.5.0
+  - cssselect==1.0.1
+  - cycler==0.10.0
+  - decorator==4.1.2
+  - entrypoints==0.2.3
+  - enum34==1.1.6
+  - html5lib==0.9999999
+  - idna==2.6
+  - imageio==2.1.2
+  - ipykernel==4.7.0
+  - ipython==6.2.1
+  - ipython-genutils==0.2.0
+  - ipywidgets==7.0.5
+  - jedi==0.11.1
+  - jinja2==2.10
+  - jsonschema==2.6.0
+  - jupyter==1.0.0
+  - jupyter-client==5.2.0
+  - jupyter-console==5.2.0
+  - jupyter-core==4.4.0
+  - kaggle-cli==0.12.13
+  - lxml==4.0.0
+  - markdown==2.6.10
+  - markupsafe==1.0
+  - matplotlib==2.1.1
+  - mechanicalsoup==0.8.0
+  - mistune==0.8.3
+  - moviepy==0.2.3.2
+  - nbconvert==5.3.1
+  - nbformat==4.4.0
+  - networkx==2.0
+  - notebook==5.2.2
+  - numpy==1.13.3
+  - olefile==0.44
+  - pandas==0.21.1
+  - pandocfilters==1.4.2
+  - parso==0.1.1
+  - pbr==3.1.1
+  - pexpect==4.3.1
+  - pickleshare==0.7.4
+  - pillow==4.3.0
+  - pluggy==0.6.0
+  - prettytable==0.7.2
+  - progressbar2==3.34.3
+  - prompt-toolkit==1.0.15
+  - protobuf==3.5.1
+  - ptyprocess==0.5.2
+  - py==1.5.2
+  - pyenchant==2.0.0
+  - pygments==2.2.0
+  - pyparsing==2.2.0
+  - pyperclip==1.6.0
+  - pytest==3.3.1
+  - python-dateutil==2.6.1
+  - python-utils==2.2.0
+  - pytz==2017.3
+  - pywavelets==0.5.2
+  - pyyaml==3.12
+  - pyzmq==16.0.3
+  - qtconsole==4.3.1
+  - requests==2.18.4
+  - scikit-image==0.13.1
+  - scikit-learn==0.19.1
+  - scipy==1.0.0
+  - simplegeneric==0.8.1
+  - six==1.11.0
+  - stevedore==1.28.0
+  - tensorflow-gpu==1.4.1
+  - tensorflow-tensorboard==0.4.0rc3
+  - tensorlayer==1.7.2
+  - terminado==0.8.1
+  - testpath==0.3.1
+  - tornado==4.5.2
+  - tqdm==4.11.2
+  - traitlets==4.3.2
+  - urllib3==1.22
+  - wcwidth==0.1.7
+  - webencodings==0.5.1
+  - werkzeug==0.13
+  - widgetsnbextension==3.0.8
+prefix: /home/user/anaconda3/envs/py35
