@@ -11,20 +11,6 @@ import scipy
 
 def get_hparas():
     hparas = {
-        ''''MAX_SEQ_LENGTH': 20,
-        'EMBED_DIM': 64,  # word embedding dimension
-        'VOCAB_SIZE': len(vocab),
-        'TEXT_DIM': 64,  # text embrdding dimension
-        'RNN_HIDDEN_SIZE': 64,
-        'Z_DIM': 64,  # random noise z dimension
-        'IMAGE_SIZE': [64, 64, 3],  # render image size
-        'LR': 0.002,
-        'DECAY_EVERY': 100,
-        'LR_DECAY': 0.5,
-        'BETA': 0.5,  # AdamOptimizer parameter
-        'N_EPOCH': 10,
-        'N_SAMPLE': num_training_sample,'''
-        
         'TRAIN_COEFF_KL' : 2.0,
         'GAN_EMBEDDING_DIM' : 128,
         'GAN_Z_DIM' : 100,
@@ -39,7 +25,6 @@ def get_hparas():
         'LR_DECAY': 0.5,
         'N_SAMPLE': 7370,
         'DISPLAY_NUM' : 100
-        
     }
     return hparas
 
@@ -818,7 +803,7 @@ class GAN:
                 name = self.inference_path + '/inference_{:04d}.png'.format(id_x[i])
                 out_img = scipy.misc.imresize(self.fake_img[2][i],(64,64))
                 scipy.misc.imsave(name, out_img)
-        os.system("cd testing && python inception_score.py ../inference ../score.csv && kg submit ../score.csv")
+        #os.system("cd testing && python inception_score.py ../inference ../score.csv && kg submit ../score.csv")
         print('submit new score!')
         
 
