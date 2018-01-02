@@ -2,6 +2,8 @@
 * ## StackGAN++ implemented by Tensorflow
     * CS565600 Deep Learning Contest4
     * For inclass contest
+* ## Framework
+<img src="framework.jpg" width="900px" height="350px"></img>
 * ## Installation Guide
     * `pip install -r requirement.txt`
     * `CUDA 8.0`,  `cudnn 6.0` and `Tensorflow 1.4`
